@@ -11,45 +11,50 @@
 					<div id="sidebar-menu" class="sidebar-menu">
 						<ul>
 							<li> 
-								<a href="index.html">Dashboard</a>
+								<a href="index.jsp">Dashboard</a>
 							</li>
 							<li class="submenu">
 								<a href="#"><span> Customer</span> <span class="menu-arrow"></span></a>
 								<ul class="list-unstyled" style="display: none;">
-									<li><a href="employees.html">All Customer</a></li>
-									<li><a href="holidays.html">Route Plans</a></li>
-									<li><a href="leaves.jsp"><span>City</span> <span class="badge bg-primary pull-right">2</span></a></li>
-									<li><a href="attendance.html">GS Area</a></li>
+									<li><a href="employees.jsp">All Customer</a></li>
+									<li><a href="#">Route Plans</a></li>
+									<li><a href="#"><span>City</span> <span class="badge bg-primary pull-right">2</span></a></li>
+									<li><a href="#">GS Area</a></li>
+								</ul>
+							</li>
+							
+							<li class="submenu">
+								<a href="#"><span> Products</span> <span class="menu-arrow"></span></a>
+								<ul class="list-unstyled" style="display: none;">
+									<li><a href="products.jsp">All Products</a></li>
+									<li><a href="Category.jsp">Category</a></li>
+									<li><a href="#"><span>Price List</a></li>
 								</ul>
 							</li>
 							
 							<li> 
-								<a href="worksheet.html">Products</a>
-							</li>
-							
-							<li> 
-								<a href="contacts.html">Inventory</a>
+								<a href="#">Inventory</a>
 							</li>
 							
 							
 							<li> 
-								<a href="events.html">Sales Order</a>
+								<a href="#">Sales Order</a>
 							</li>
 							
 							<li> 
-								<a href="events.html">Invoicing</a>
+								<a href="#">Invoicing</a>
 							</li>
 
 							<li> 
-								<a href="settings.html">Settings</a>
+								<a href="#">Settings</a>
 							</li>
 							<li class="submenu">
 								<a href="#"><span> Pages </span> <span class="menu-arrow"></span></a>
 								<ul class="list-unstyled" style="display: none;">
-									<li><a href="login.html"> Login </a></li>
-									<li><a href="register.html"> Register </a></li>
-									<li><a href="forgot-password.html"> Forgot Password </a></li>
-									<li><a href="profile.html"> Profile </a></li>
+									<li><a href="#"> Login </a></li>
+									<li><a href="#"> Register </a></li>
+									<li><a href="#"> Forgot Password </a></li>
+									<li><a href="#"> Profile </a></li>
 								</ul>
 							</li>
 						</ul>
