@@ -154,13 +154,14 @@
 						</div>
 						<div class="modal-body">
 							<s:form action="createCategory">
-								<div class="form-group">
-									<label>Category Name <span class="text-danger">*</span></label>
-									<s:textfield name = "Category" class="form-control" required="" type="text"> </s:textfield>
-								</div>
-								<div class="m-t-20 text-center">
-									<s:submit class="btn btn-primary">Create Category</s:submit>
-								</div>
+								<s:div class="form-group">
+									<s:label>Category Name <span class="text-danger">*</span></s:label>
+									<s:textfield name = "Category" class="form-control" required="" type="text" size="50"> </s:textfield>
+								</s:div>
+			
+								<s:div class="m-t-20 text-center">
+									<s:submit class="btn btn-primary" name="CreateCategory" value="Create Category"></s:submit>
+								</s:div>
 							</s:form>
 						</div>
 					</div>

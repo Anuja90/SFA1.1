@@ -5,7 +5,7 @@
  
 <hibernate-mapping>
  
-    <class name="com.persistence.Category" table="tblCategory">
+    <class name="com.persistence.Category" table="dbo.tblCategory">
         <id name="ID" column="ID">
             <generator class="native" />
         </id>
